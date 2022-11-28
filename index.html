@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        body {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="background" class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <header id="header" class="floated-elt">
+            <div class="hotdog" id="hotdog" onclick="toggleHotdog(this)">
+                <div class="bar1 bar"></div>
+                <div class="bar2 bar"></div>
+                <div class="bar3 bar"></div>
+            </div>
+            <div id="navigation" class="floated-elt">
+                <nav>
+                    <ul id="menu">
+                        <li><a class="link" href="#home">home</a></li>
+                        <li><a class="link" href="#about">about</a></li>
+                        <li><a class="link" href="#portfolio">portfolio</a></li>
+                        <li><a class="link" href="#contact-form">contact</a></li>
+                    </ul>
+                </nav>
+                <div class="socials">
+                    <span id="instagram"><i class="fa-brands fa-instagram"></i></span>
+                    <span id="twitter"><i class="fa-brands fa-twitter"></i></span>
+                    <span id="youtube"><i class="fa-brands fa-youtube"></i></span>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <section id="landing">
+                <div id="intro">
+                    <h1 id="name">HARVEY SPECTRE.inc</h1>
+                    <div id="job">
+                        Software Developement
+                    </div>
+                </div>
+                <div id="contact_btn">
+                    <button id="contact-me">Contact me</button>
+                    <!-- this shoudl redirect to the contact page -->
+                </div>
+            </section>
+            <section id="about" class="box">
+                <h1 class="section-title">About</h1>
+                <!-- This should be visible only after entering secret code given  -->
+                <div id="about_information" class="clearfix">
+                    <div id="img_container" class="clearfix">
+                        <img src="avatar.jpg" alt="Personal image" id="personal_img">
+                    </div>
+                    <p class="clearfix">
+                        I'm a full stack programmer, i have been working since 2018, which was the year of my graduation from (OFPPT) At this stage of my career i'm open for what ever helps me imporve my skills and achieve my professional goals, be it an high level internship,
+                        full time job, or a freelance project. Feel free to Read more ... about my career.
+                    </p>
+                </div>
+
+                <div id="formation_experience">
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2019/2020</span>
+                            <span class="title">Aaaaaammaaaaaaaaa654df</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2015/2016</span>
+                            <span class="title">Bbbbbbbbbbbbbbbbbbbbbbb</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="read-more-div">
+                    <a href="pages/about/" class="read-more">Read more ...</a>
+                </div>
+            </section>
+
+            <section id="portfolio" class="box clearfix">
+                <h1 class="section-title">
+                    Projects
+                </h1>
+                <div id="pj-container">
+                    <div class="projects clearfix">
+                        <div class="pj-title">Project title</div>
+                        <div class="pj-img">
+                            <img src="1.jpg" alt="">
+                            <label class="visit">
+                                <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="projects clearfix">
+                        <div class="pj-title">Project title</div>
+                        <div class="pj-img">
+                            <img src="2.jpg" alt="">
+                            <label class="visit">
+                                <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="projects clearfix">
+                        <div class="pj-title">Project title</div>
+                        <div class="pj-img">
+                            <img src="1.jpg" alt="">
+                            <label class="visit">
+                                <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="projects clearfix">
+                        <div class="pj-title">Project title</div>
+                        <div class="pj-img">
+                            <img src="2.jpg" alt="">
+                            <label class="visit">
+                                <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+                            </label>
+                        </div>
+                    </div>
+                    <div class="projects clearfix">
+                        <div class="pj-title">Project title</div>
+                        <div class="pj-img">
+                            <img src="2.jpg" alt="">
+                            <label class="visit">
+                                <!-- <i class="fa fa-external-link" aria-hidden="true"></i> -->
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div id="read-more-div">
+                    <a href="#" class="read-more">Read more ...</a>
+                </div>
+            </section>
+            <!-- <section id="testimonials">
+                <div class="box">
+
+                </div>
+            </section> -->
+            <!-- ###################################################### -->
+            <!-- <section id="blog">
+                <div class="blog-post">
+                    <h1 class="section-title">
+                        Blog
+                    </h1>
+                    <h1 id="post-title">Title Title Title </h1>
+                    <p id="post-tldr">too long didn't read</p>
+                </div>
+            </section> -->
+            <section id="contact-form" class="box">
+                <h1 class="section-title">
+                    CONTACT
+                </h1>
+                <div id="contact">
+                    <div class="contact-box">
+                        <div class="contact-links">
+                            <div class="links">
+                                <div class="link">
+                                    <a><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="link">
+                                    <a><i class="fa-brands fa-github"></i></a>
+                                </div>
+                                <div class="link">
+                                    <a><i class="fa-brands fa-codepen"></i></a>
+                                </div>
+                                <!-- <div class="link">
+                                    <a><i class="fa-brands fa-whatsapp"></i></a>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="contact-form-wrapper">
+                            <form>
+                                <div class="form-item">
+                                    <input placeholder="Sender.." type="text" name="sender" required>
+                                    <!-- <label>Name:</label> -->
+                                </div>
+                                <div class="form-item">
+                                    <input placeholder="Email.." type="text" name="email" required>
+                                    <!-- <label>Email:</label> -->
+                                </div>
+                                <div class="form-item">
+                                    <select name="subject" id="subject" required>
+                                        <option value="">Sujet:</option>
+                                        <option value="recrutement">Recrutement</option>
+                                        <option value="bug_report">rapport d'erreur au niveau de site</option>
+                                        <option value="demande_information">Demande d'information</option>                                        
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                    <!-- <label>Subject:</label> -->
+                                </div>
+                                <div class="form-item" style="display:none;">
+                                    <input placeholder="Subject.." type="text" name="autre_subject">
+                                    <!-- <label>Autres sujets:</label> -->
+                                </div>
+                                <div class="form-item">
+                                    <textarea placeholder="Message.." name="message" required></textarea>
+                                    <!-- <label>Message:</label> -->
+                                </div>
+                                <button class="submit-btn">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="box">
+                <div id="footer_top" class="message">
+                    <p>
+                        check me out on social media
+                    </p>
+                </div>
+                <div id="footer_bottom" class="socials">
+                    <span id="instagram"><i class="fa-brands fa-instagram"></i></span>
+                    <span id="twitter"><i class="fa-brands fa-twitter"></i></span>
+                    <span id="youtube"><i class="fa-brands fa-youtube"></i></span>
+                </div>
+                <div id="copyrights">
+                    <p>
+                        &copy;<span id="name">HARVEY SPECTRE.inc</span> <span id="year">2022</span>
+                    </p>
+                </div>
+            </footer>
+        </main>
+        <script>
+            (function() {
+                window.onload = () => {
+                    setTimeout(function() {
+                        document.body.style.opacity = "1";
+                    }, 100);
+                };
+            })();
+        </script>
+        <script src="header.js"></script>
+        <script src="global.js"></script>
+
+    </div>
+</body>
+
+</html>
