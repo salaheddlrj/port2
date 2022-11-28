@@ -1,0 +1,119 @@
+div#skills {
+    /* border: 1px solid #000; */
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+}
+
+div#skills * {
+    transition: .5s ease all;
+}
+
+div#skills>div {
+    margin: 0px auto;
+    /* border: 1px solid green; */
+}
+
+div#skills div#guide {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#skills div#guide>span {
+    cursor: pointer;
+    /* border: 1px solid red; */
+    padding: 1% 4%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+div#skills>div.stack {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+div#skills>div.stack>div {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+div#skills>div.stack #skill-menu {
+    width: 20%;
+}
+
+div#skills>div.stack #skill-menu .single-skill {
+    padding: 5%;
+    cursor: pointer;
+}
+
+div#skills>div.stack #skill-menu .single-skill:hover {
+    background-color: rgba(29, 62, 110, .3);
+    color: #fff;
+}
+
+div#skills>div.stack .details {
+    width: 70%;
+    padding: 2px 5px;
+}
+
+div#skills>div:not(#guide) {
+    background: rgba(29, 62, 110, .1);
+}
+
+div#skills .guide-stack-selected {
+    background: rgba(29, 62, 110, .1);
+}
+
+div#skill-menu div.single-skill i {
+    font-size: 1.4em;
+}
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+    div#skills {
+        width: 100%;
+    }
+    div#skills div#guide {
+        width: 100%;
+    }
+    div#skills div.stack div#skill-menu {
+        width: 10%;
+        text-align: center;
+    }
+    div#skills #skill-menu .single-skill span.label {
+        display: none;
+    }
+    div#skills div.stack .details {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:735px) {
+    div#skills {
+        width: 90%;
+    }
+    div#skills div#guide {
+        width: 60%;
+    }
+    div#skills div.stack div#skill-menu {
+        width: 25%;
+    }
+    div#skills div.stack .details {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:736px) {
+    div#skills {
+        width: 70%;
+    }
+    div#skills div#guide {
+        width: 50%;
+    }
+}

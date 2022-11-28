@@ -1,0 +1,71 @@
+section#portfolio {
+    height: fit-content;
+}
+
+section#portfolio .projects .pj-title {
+    margin: 15px 0px;
+}
+
+section#portfolio #pj-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section#portfolio #pj-container .projects {
+    padding: 1px 3px;
+    margin: 5px 1px;
+    width: 22%;
+    min-width: 20%;
+    height: fit-content;
+}
+
+section#portfolio #pj-container .projects .pj-img {
+    /* border: 1px solid #adadad; */
+    padding: 0px;
+    height: 200px;
+    width: 95%;
+    margin: 0px auto;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+section#portfolio #pj-container .projects .pj-img img {
+    width: 100%;
+    height: auto;
+}
+
+section#portfolio #pj-container .projects .pj-img img:hover {
+    /* opacity: 0.9; */
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* ********************************** Media queries ********************************** */
+
+@media only screen and (min-width: 768px) {
+    section#portfolio #pj-container .projects {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    section#portfolio #pj-container .projects {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+    section#portfolio #pj-container .projects {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    section#portfolio #pj-container .projects {
+        width: 100%;
+    }
+}

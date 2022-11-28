@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #page_header {
+            padding: 7px;
+            position: fixed;
+            z-index: 999999;
+            background: rgba(255, 255, 255, 1);
+            width: 100%;
+            margin: 0px;
+            top: 0px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+        }
+        
+        #page_header i {
+            font-size: 2.5em;
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            cursor: pointer;
+        }
+        
+        #page_header i:hover {
+            transform: scale(1.2);
+            color: #900001;
+        }
+        
+        #page_header #btns_container {
+            width: 400px;
+            margin: 0px auto;
+            padding: 0px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            user-select: none;
+        }
+        
+        #page_header #btns_container>label {
+            cursor: pointer;
+            text-transform: uppercase;
+            padding: 1%;
+            width: 30%;
+            text-align: center;
+            font-size: 1.3em;
+            font-family: sans-serif;
+            position: relative;
+            transition: all ease .33s;
+        }
+        
+        #page_header #btns_container label.selected-about-options {
+            color: #900001;
+            text-decoration: underline;
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width: 500px) {
+            #page_header #btns_container {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skills.css">
+    <!-- <link rel="stylesheet" href="timeline.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" />
+    <style>
+        body {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background" class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="page_header">
+        <a href="../../">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+        <div id="btns_container">
+            <label id="nav-about" class="navigation selected-about-options">
+                about
+            </label>
+            <label id="nav-skills" class="navigation">
+                skills
+            </label>
+        </div>
+    </div>
+    <div id="main">
+        <div id="about">
+            <div id="about_header">
+                <div id="image">
+                    <img src="../../avatar.jpg" alt="" srcset="">
+                </div>
+                <div id="information">
+                    <p id="fullname">
+                        <span class="icon"></span> HARVEY SPECTRE.inc, <span id="age">25</span> ans
+                    </p>
+                    <p id="occupation">
+                        <span class="icon"></span> software developer
+                    </p>
+                    <p id="phone_number">
+                        <span class="icon"></span> 12.12.12.12.12
+                    </p>
+                    <p id="email">
+                        <span class="icon"></span> test.test.test.test@gmail.com
+                    </p>
+                    <p id="dev_socials">
+                        <a><i class="fa-brands fa-github"></i></a>
+                        <a><i class="fa-brands fa-codepen"></i></a>
+                        <a><i class="fa-brands fa-linkedin-in"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div id="about_body">
+                <div id="formations">
+                    <h1>Formations</h1>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2019/2020</span>
+                            <span class="title">Aaaaaammaaaaaaaaa654df</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2015/2016</span>
+                            <span class="title">Bbbbbbbbbbbbbbbbbbbbbbb</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2015/2016</span>
+                            <span class="title">Bbbbbbbbbbbbbbbbbbbbbbb</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2015/2016</span>
+                            <span class="title">Bbbbbbbbbbbbbbbbbbbbbbb</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                </div>
+                <div id="experiences">
+                    <h1>Experiences</h1>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2019/2020</span>
+                            <span class="title">Aaaaaammaaaaaaaaa654df</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                    <div class="bloc">
+                        <div class="header">
+                            <span class="period">2015/2016</span>
+                            <span class="title">Bbbbbbbbbbbbbbbbbbbbbbb</span>
+                        </div>
+                        <div class="body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam adipisci sed. Perferendis quo aut corrupti vel illum magnam sunt molestias, sapiente, animi molestiae hic reprehenderit consequuntur, ipsa totam praesentium.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="skills" style="display: none;">
+            <div id="guide">
+                <span class="stack guide-stack guide-stack-selected" id="front-end">Front-end</span>
+                <span class="stack guide-stack" id="back-end">Back-end</span>
+                <span class="stack guide-stack" id="mastered">Mastered</span>
+            </div>
+            <div class="stack" id="front-end">
+                <div id="skill-menu">
+
+                </div>
+                <div class="details">
+                    Please click on a stack you wish to consult from the above tabs (&uarr;) ...
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_top" class="message">
+            <p>
+                check me out on social media
+            </p>
+        </div>
+        <div id="footer_bottom" class="socials">
+            <span id="instagram"><i class="fa-brands fa-instagram"></i></span>
+            <span id="twitter"><i class="fa-brands fa-twitter"></i></span>
+            <span id="youtube"><i class="fa-brands fa-youtube"></i></span>
+        </div>
+        <div id="copyrights">
+            <p>
+                &copy;<span id="name">HARVEY SPECTRE.inc</span>, <span id="location">Casablanca, morocco</span> <span id="year">2022</span>
+            </p>
+        </div>
+    </footer>
+    <script>
+        (function() {
+            window.onload = () => {
+                setTimeout(function() {
+                    document.body.style.opacity = "1";
+                }, 100);
+            };
+        })();
+    </script>
+    <script src="main.js"></script>
+    <!-- <script src="../../header.js"></script> -->
+    <!-- <script src="../../timeline.js"></script> -->
+</body>
+
+</html>

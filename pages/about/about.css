@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+#main {
+    min-height: 70vh;
+    width: inherit;
+    margin: 50px auto 0px auto;
+    position: relative;
+    padding: 5px 10px;
+}
+
+#main>div {
+    max-width: inherit;
+    width: inherit;
+    min-height: inherit;
+    max-height: inherit;
+    height: inherit;
+}
+
+#main>div#about>div {
+    padding: 5px 0px;
+}
+
+#main>div#about>div {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#main>div#about #image {
+    width: 230px;
+}
+
+#main>div#about #image img {
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#main>div#about #information {
+    width: 60%;
+}
+
+#main>div#about #information>p {
+    margin: 5px 1px;
+    padding: 5px;
+    font-size: 1.2em;
+    position: relative;
+}
+
+#main>div#about #information>p::before {
+    content: "";
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    left: 10%;
+    top: -1px;
+    background-color: #adadad;
+}
+
+#main>div#about #information>p#fullname {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Courgette';
+}
+
+#main>div#about #information>p#fullname span#age {
+    font-size: 1em;
+    font-weight: bold;
+    color: #900001;
+}
+
+#main>div#about #information>p#occupation {
+    text-align: right;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    font-family: 'Courgette';
+    color: #6A9AC4;
+}
+
+#main>div#about #information>p#dev_socials {
+    text-align: center;
+}
+
+#main>div#about #information>p#dev_socials i {
+    cursor: pointer;
+    font-size: 2.5em;
+    margin: 0px 10px;
+}
+
+#main>div#about #information>p#dev_socials i:hover {
+    transform: scale(1.3);
+    color: #900001;
+}
+
+
+/* ------------------about body------------------ */
+
+#main>div#about>#about_body>div {
+    width: 48%;
+}
+
+#main>div#about>#about_body>div h1 {
+    text-align: center;
+    margin: 5% 0px;
+    font-size: 1.5em;
+    color: #900001;
+}
+
+#main>div#about>#about_body {
+    padding: 0px;
+    width: 75%;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#main>div#about>#about_body .bloc:hover,
+#main>div#about #image img:hover {
+    box-shadow: -1px 0px 14px -4px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+#main>div#about>#about_body .bloc {
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #1d3e6e;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 7px;
+}
+
+#main>div#about>#about_body .bloc>* {
+    padding: 10px 8px;
+}
+
+#main>div#about>#about_body .bloc .header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 1.3em;
+    padding: 5px 8px;
+    color: #fff;
+    background: rgba(29, 62, 110, 0.2);
+    border-radius: 7px;
+}
+
+#main>div#about>#about_body .bloc .header .period {
+    font-weight: bold;
+}
+
+#main>div#about>#about_body .bloc .header .title {
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+#main>div#about>#about_body .bloc .body {
+    padding: 20px 3px;
+}
+
+@media only screen and (max-width:942px) {
+    #main>div#about #about_header {
+        width: 90%;
+    }
+    #main>div#about>#about_body .bloc {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:736px) {
+    #main>div#about #about_header {
+        width: 100%;
+    }
+    #main>div#about>#about_body .bloc {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    #main>div#about #about_header #information {
+        width: 100%;
+    }
+    #main>div#about>#about_body {
+        width: 90%;
+    }
+    #main>div#about>#about_body>div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:442px) {
+    #main>div#about>#about_body {
+        width: 100%;
+    }
+}

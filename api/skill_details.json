@@ -1,0 +1,32 @@
+[{
+    "html": {
+        "description": "Html is a markup language with which i have created many user interfaces.",
+        "prj": [{
+            "description": "prj-name1",
+            "url": "prj-url1"
+        }, {
+            "description": "prj-name2",
+            "url": "prj-url2"
+        }]
+    },
+    "css": {
+        "description": "CSS is description language that helped me as a web developpers style and beautify many webpages. ",
+        "prj": [{
+            "description": "prj-name1",
+            "url": "prj-url1"
+        }, {
+            "description": "prj-name2",
+            "url": "prj-url2"
+        }]
+    },
+    "js": {
+        "description": "Javascript is a multiplatform programing language, used mainly in the web, with which i have been able to make to my webpages dynamic. ",
+        "prj": [{
+            "description": "prj-name1",
+            "url": "prj-url1"
+        }, {
+            "description": "prj-name2",
+            "url": "prj-url2"
+        }]
+    }
+}]

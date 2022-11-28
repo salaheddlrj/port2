@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css?family=Courgette'); */
+
+#landing {
+    position: relative;
+    padding-top: 12%;
+    height: 77vh;
+    /* background-image: url('Hand coding-bro.svg');
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+#landing #intro {
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    text-transform: uppercase;
+    /* border: 1px solid #000; */
+}
+
+#landing h1 {
+    font-size: 3em;
+    text-transform: capitalize;
+    /* font-family: 'Courgette'; */
+}
+
+#landing #job {
+    color: #7a95b0;
+    text-align: right;
+    text-transform: capitalize;
+    font-weight: bold;
+    /* font-family: 'Courgette'; */
+    margin: 10px 5px;
+    font-size: 1.5em;
+}
+
+#contact {
+    padding: 5px 0px;
+}
+
+button#contact-me {
+    padding: 6px 10px;
+    border: 1px solid #900001;
+    color: #fff;
+    background-color: #900001;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#contact-me:hover {
+    transform: scale(1.2);
+    background-color: #fff;
+    color: #900001;
+}
+
+
+/* ----------------------------------Media quries---------------------------------- */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    #landing #intro {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    #landing #intro {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #landing #intro {
+        width: 100%;
+    }
+    #landing #intro h1 {
+        font-size: 2.7em;
+    }
+}
+
+
+/* ----------------------------------Keyframes---------------------------------- */

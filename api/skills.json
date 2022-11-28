@@ -1,0 +1,29 @@
+[{
+        "id": "html5",
+        "label": "HTML5",
+        "iconClass": "fa-brands fa-html5",
+        "stack": "front",
+        "mastered": 1
+    },
+    {
+        "id": "css3",
+        "label": "CSS3",
+        "iconClass": "fa-brands fa-css3",
+        "stack": "back",
+        "mastered": 1
+    },
+    {
+        "id": "js",
+        "label": "Javascript",
+        "iconClass": "fa-brands fa-js",
+        "stack": "back",
+        "mastered": 1
+    },
+    {
+        "id": "php",
+        "label": "PHP",
+        "iconClass": "fa-brands fa-php",
+        "stack": "back",
+        "mastered": 0
+    }
+]

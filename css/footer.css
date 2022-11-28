@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Indie Flower');
+footer {
+    display: block;
+    padding: 5px 8px;
+    height: fit-content;
+    position: relative;
+}
+
+footer>div {
+    width: 100%;
+    text-align: center;
+    padding: 10px 8px;
+}
+
+footer>div#footer_top p {
+    font-family: 'Indie Flower';
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+footer>div#footer_bottom span {
+    margin: 2px 7px;
+}
+
+footer>div#footer_bottom i {
+    font-size: 2em;
+}
+
+footer>div#footer_bottom i:hover {
+    color: #900001;
+    transform: scale(1.4);
+}
+
+footer>div#copyrights {
+    padding: 5px 15px;
+}

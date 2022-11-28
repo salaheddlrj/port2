@@ -1,0 +1,145 @@
+#about {
+    position: relative;
+    height: fit-content;
+    user-select: none;
+}
+
+#about #about_information {
+    padding: 3% 5%;
+    width: 50%;
+    margin: 0px auto;
+}
+
+#about #about_information>* {
+    display: inline-block;
+    height: 100%;
+}
+
+#about #about_information #img_container {
+    width: 25%;
+    height: 100%;
+}
+
+#about p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: normal;
+    text-indent: 20px;
+    padding: 1%;
+    width: 70%;
+    float: right;
+}
+
+#about img#personal_img {
+    border: 1px solid #1d3e6e;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div#formation_experience {
+    cursor: pointer;
+    padding: 0px;
+    width: 75%;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#formation_experience .bloc:hover,
+#about img#personal_img:hover {
+    box-shadow: -1px 0px 14px -4px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+}
+
+div#formation_experience .bloc {
+    background: #fff;
+    border: 1px solid #1d3e6e;
+    width: 40%;
+    margin: 3px;
+    border-radius: 7px;
+}
+
+div#formation_experience .bloc>* {
+    padding: 10px 8px;
+}
+
+div#formation_experience .bloc .header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 1.3em;
+    padding: 5px 8px;
+    color: #fff;
+    background: rgba(29, 62, 110, 0.2);
+    border-radius: 7px;
+}
+
+div#formation_experience .bloc .header .period {
+    font-weight: bold;
+}
+
+div#formation_experience .bloc .header .title {
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+div#formation_experience .bloc .body {
+    padding: 20px 3px;
+}
+
+
+/* ----------------------------------Media quries---------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    #about #about_information {
+        width: 75%;
+        padding: 0px;
+    }
+    div#formation_experience {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    #about #about_information {
+        width: 90%;
+        padding: 0px;
+    }
+    div#formation_experience {
+        width: 100%;
+    }
+    div#formation_experience .bloc {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #about #about_information {
+        width: 100%;
+        padding: 0px;
+    }
+    div#formation_experience {
+        width: 100%;
+    }
+    div#formation_experience .bloc {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    div#formation_experience {
+        width: 100%;
+    }
+    div#formation_experience .bloc {
+        width: 100%;
+    }
+}
+
+
+/* ----------------------------------Keyframes---------------------------------- */
